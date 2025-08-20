@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova — Analítica que convierte</title>
+  <meta name="description" content="Analítica en tiempo real para optimizar tu embudo y aumentar la conversión.">
+  <!-- Favicon con zoom (solo la N) -->
+  <link rel="icon" href="logo-favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Nova">
+      <img src="logo.svg" alt="NOVA" class="logo" width="120" height="28" decoding="async">
+    </a>
+    <nav class="menu">
+      <a href="#features">Funciones</a>
+      <a href="#cases">Casos</a>
+      <a href="#pricing">Precios</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Analítica clara. Resultados reales.</h1>
+        <p class="lead">Visualizá tu embudo en tiempo real, detectá fricción y tomá decisiones con datos, no con suposiciones.</p>
+        <form class="signup" action="https://formsubmit.co/santinosicotfx@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Lead Nova — Hero">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input class="in" type="email" name="email" placeholder="tu@email.com" required>
+          <button class="btn btn-primary" type="submit">Empezar gratis</button>
+        </form>
+        <ul class="badges">
+          <li>14 días sin tarjeta</li>
+          <li>Onboarding en 10 min</li>
+          <li>Soporte en español</li>
+        </ul>
+      </div>
+
+      <!-- Imagen de dashboard (relacionada con analítica) -->
+      <figure class="hero-media">
+        <img
+          src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1400&auto=format&fit=crop"
+          srcset="
+            https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=900&auto=format&fit=crop 900w,
+            https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1400&auto=format&fit=crop 1400w"
+          sizes="(max-width: 900px) 100vw, 700px"
+          alt="Dashboard con métricas y gráficos"
+          class="screenshot"
+          decoding="async" loading="eager">
+      </figure>
+    </div>
+
+    <div class="metrics container">
+      <div class="metric"><span class="num" data-to="98">0</span><span class="unit">%</span><p>Satisfacción</p></div>
+      <div class="metric"><span class="num" data-to="34">0</span><span class="unit">k</span><p>Usuarios</p></div>
+      <div class="metric"><span class="num" data-to="120">0</span><span class="unit">%</span><p>ROI medio</p></div>
+      <div class="metric"><span class="num" data-to="7">0</span><span class="unit">d</span><p>Time-to-value</p></div>
+    </div>
+  </section>
+
+  <!-- FUNCIONES -->
+  <section id="features" class="features container">
+    <article class="feature">
+      <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1200&auto=format&fit=crop"
+           alt="Panel de métricas en tiempo real" loading="lazy" decoding="async">
+      <div>
+        <h3>Panel en tiempo real</h3>
+        <p>Eventos, conversiones y cohorts con latencia de segundos. Sin muestreo ni retrasos. Exportá a CSV o con API.</p>
+      </div>
+    </article>
+    <article class="feature">
+      <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
+           alt="Gráfico de embudo de conversión" loading="lazy" decoding="async">
+      <div>
+        <h3>Embudo visual</h3>
+        <p>Identificá cuellos de botella por paso, corré experimentos A/B y medí el impacto en tiempo real.</p>
+      </div>
+    </article>
+    <article class="feature">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
+           alt="Integraciones con herramientas populares" loading="lazy" decoding="async">
+      <div>
+        <h3>Integraciones</h3>
+        <p>GA4, Meta, TikTok, Stripe y Sheets. SDK ligero (4KB), colas offline, reintentos y API con ejemplos.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- CASOS -->
+  <section id="cases" class="cases container">
+    <article class="case">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1400&auto=format&fit=crop"
+           alt="Equipo de datos planificando KPIs" loading="lazy" decoding="async">
+      <div><h4>SaaS B2B</h4><p>+42% de activación al optimizar onboarding con eventos clave y alertas proactivas.</p></div>
+    </article>
+    <article class="case">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1400&auto=format&fit=crop"
+           alt="Analista revisando panel de conversiones e-commerce" loading="lazy" decoding="async">
+      <div><h4>E-commerce</h4><p>+23% de conversión tras reducir pasos del checkout móvil y mejorar tiempos de carga.</p></div>
+    </article>
+  </section>
+
+  <!-- PRECIOS (botones iguales y un solo color) -->
+  <section id="pricing" class="pricing container">
+    <article class="plan">
+      <h3>Starter</h3>
+      <p class="price">$0</p>
+      <ul>
+        <li>10k eventos/mes</li>
+        <li>Dashboard en tiempo real</li>
+        <li>1 proyecto</li>
+      </ul>
+      <a class="btn btn-primary" href="#cta">Empezar gratis</a>
+    </article>
+    <article class="plan featured">
+      <h3>Growth</h3>
+      <p class="price">$79</p>
+      <ul>
+        <li>500k eventos/mes</li>
+        <li>Embudo + Cohorts</li>
+        <li>Integraciones premium</li>
+      </ul>
+      <a class="btn btn-primary" href="#cta">Empezar gratis</a>
+    </article>
+    <article class="plan">
+      <h3>Scale</h3>
+      <p class="price">A medida</p>
+      <ul>
+        <li>Volumen ilimitado</li>
+        <li>Soporte 24/7</li>
+        <li>Acuerdos a medida</li>
+      </ul>
+      <a class="btn btn-primary" href="#cta">Empezar gratis</a>
+    </article>
+  </section>
+
+  <!-- FAQ extendido -->
+  <section id="faq" class="faq container">
+    <h2>Preguntas frecuentes</h2>
+
+    <details>
+      <summary>¿Necesito tarjeta para la prueba?</summary>
+      <p>No, no pedimos tarjeta en los primeros 14 días. Podés probar todas las funciones sin costos ni compromisos. Si te gusta, activás un plan desde tu panel.</p>
+    </details>
+
+    <details>
+      <summary>¿Puedo cancelar cuando quiera?</summary>
+      <p>Sí. Podés cancelar en cualquier momento con un clic desde tu cuenta. Conservamos tu configuración y datos por 30 días para que puedas reactivar sin perder nada.</p>
+    </details>
+
+    <details>
+      <summary>¿Cómo se envían y protegen los datos?</summary>
+      <p>El SDK (4KB) envía eventos cifrados con TLS 1.3. Tenemos colas offline y reintentos, y los datos se alojan con redundancia geográfica. Soportamos exportaciones y eliminación bajo solicitud.</p>
+    </details>
+
+    <details>
+      <summary>¿Ofrecen soporte en español?</summary>
+      <p>Sí. Soporte en español, inglés y portugués. En plan Growth respondemos en menos de 2 horas hábiles; en Scale, soporte 24/7.</p>
+    </details>
+  </section>
+
+  <!-- CTA final -->
+  <section id="cta" class="cta">
+    <div class="container cta-inner">
+      <h2>Probalo hoy</h2>
+      <form class="signup" action="https://formsubmit.co/santinosicotfx@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Lead Nova — CTA final">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input class="in" type="email" name="email" placeholder="tu@email.com" required>
+        <button class="btn btn-primary" type="submit">Empezar gratis</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Nova</p>
+  </div>
+</footer>
+
+<!-- Botón de volver arriba -->
+<button id="toTop" aria-label="Volver arriba">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
